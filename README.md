@@ -55,7 +55,24 @@ A hands-on walkthrough of the full ticket lifecycle in osTicket, from end-user s
 <p align="center">
 <img src="Ticket Properties.png" width="80%" alt="Agent John viewing Ticket #145655 with default properties"/>
 </p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+5. Assign the ticket to Jane: [click the **Assign** (person) icon in the ticket toolbar], select `Jane Doe`, add a note, and confirm.
+   *Expected result: the thread logs "John Doe assigned this to Jane Doe" and Assigned To changes from John Doe to Jane Doe.*
+6. Transfer the ticket: [click the **gear icon > Transfer**], select the `SysAdmin` department, enter the note "The banking system is down", and click **Transfer**.
+   *Expected result: the thread logs "Ticket transferred from Support to SysAdmin" and the Department field changes to SysAdmin.*
+
+<p align="center">
+<img src="07-ticket1-assign-transfer-thread.png" width="80%" alt="Thread showing ticket assigned to Jane and transferred to SysAdmin"/>
+</p>
+
+**2c. Observe the ticket as Jane**
+1. Log out of John's session and log in to the agent panel as `jane`.
+2. Open Ticket #145655.
+3. Observe the properties: Department **SysAdmin**, Assigned To **Jane Doe**, Priority **Emergency**, SLA Plan **Sev-A**, Due Date **11/7/26 5:03 AM**.
+
+*Expected result: Jane can open the ticket because she has access to the SysAdmin department and the ticket is assigned to her.*
+
+<p align="center">
+<img src="08-ticket1-jane-view.png" width="80%" alt="Agent Jane viewing the escalated ticket in the SysAdmin department"/>
 </p>
 <br />
