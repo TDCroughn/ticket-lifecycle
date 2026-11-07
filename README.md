@@ -92,7 +92,7 @@ A hands-on walkthrough of the full ticket lifecycle in osTicket, from end-user s
 *Expected result: the thread logs "Closed by Jane Doe with status of Resolved" with a timestamp (5:33 AM), and the end user receives the message by email.*
 
 <p align="center">
-<img src="11-ticket1-jane-closing-reply.png" width="80%" alt="Jane's closing reply with status set to Resolved"/>
+<img src="Ticket Jane Closing Reply.png" width="80%" alt="Jane's closing reply with status set to Resolved"/>
 </p>
 
 4. Click **Closed** in the top menu to confirm the ticket moved there.
