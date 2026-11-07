@@ -40,7 +40,7 @@ A hands-on walkthrough of the full ticket lifecycle in osTicket, from end-user s
 <img src="Create Ticket.png" width="80%" alt="End user filling out the new ticket form"/>
 </p>
 
-**2b. Observe the ticket as agent John**
+**1b. Observe the ticket as agent John**
 1. Open a new browser tab and go to `http://localhost/osTicket/scp/login.php`.
 2. Log in with the username `john` and his password.
 3. Click the **Tickets** tab, then click the ticket **Entire mobile/online banking system is down** (Ticket #145655).
@@ -61,7 +61,7 @@ A hands-on walkthrough of the full ticket lifecycle in osTicket, from end-user s
 6. Transfer the ticket: [click the **gear icon > Transfer**], select the `SysAdmin` department, enter the note "The banking system is down", and click **Transfer**.
    *Expected result: the thread logs "Ticket transferred from Support to SysAdmin" and the Department field changes to SysAdmin.*
 
-**2c. Observe the ticket as Jane**
+**1c. Observe the ticket as Jane**
 1. Log out of John's session and log in to the agent panel as `jane`.
 2. Open Ticket #145655.
 3. Observe the properties: Department **SysAdmin**, Assigned To **Jane Doe**, Priority **Emergency**, SLA Plan **Sev-A**, Due Date **11/7/26 5:03 AM**.
@@ -72,7 +72,7 @@ A hands-on walkthrough of the full ticket lifecycle in osTicket, from end-user s
 <img src="Ticket in Jane Portal.png" width="80%" alt="Agent Jane viewing the escalated ticket in the SysAdmin department"/>
 </p>
 
-**2d. Work the ticket as Jane**
+**1d. Work the ticket as Jane**
 1. Log in to the agent panel as `jane` and open Ticket #145655.
 2. In the **Post Reply** tab, enter: "We accidentally restarted the online banking backend server due to a configuration error. We will check the settings and attempt to restart." Click **Post Reply**.
 
@@ -81,10 +81,10 @@ A hands-on walkthrough of the full ticket lifecycle in osTicket, from end-user s
 *Note: because the Sev-A SLA allowed 1 hour (due 5:03 AM) and the ticket was still open at 5:30 AM, osTicket automatically logged "Flagged as overdue by the system." This shows how SLA plans track response expectations.*
 
 <p align="center">
-<img src="10-ticket1-jane-reply.png" width="80%" alt="Jane's reply in the thread, with the system overdue flag"/>
+<img src="Jane's Reply.png" width="80%" alt="Jane's reply in the thread, with the system overdue flag"/>
 </p>
 
-**2e. Resolve and close the ticket as Jane**
+**1e. Resolve and close the ticket as Jane**
 1. As `jane`, open Ticket #145655 and click the **Post Reply** tab.
 2. Enter: "Server successfully restarted. Online banking is back up. Confirmed with Karen; closing the ticket."
 3. Set **Ticket Status** to `Resolved` and click **Post Reply**.
