@@ -69,6 +69,37 @@ A hands-on walkthrough of the full ticket lifecycle in osTicket, from end-user s
 *Expected result: Jane can open the ticket because she has access to the SysAdmin department and the ticket is assigned to her.*
 
 <p align="center">
-<img src="08-ticket1-jane-view.png" width="80%" alt="Agent Jane viewing the escalated ticket in the SysAdmin department"/>
+<img src="Ticket in Jane Portal.png" width="80%" alt="Agent Jane viewing the escalated ticket in the SysAdmin department"/>
+</p>
+
+**2d. Work the ticket as Jane**
+1. Log in to the agent panel as `jane` and open Ticket #145655.
+2. In the **Post Reply** tab, enter: "We accidentally restarted the online banking backend server due to a configuration error. We will check the settings and attempt to restart." Click **Post Reply**.
+
+*Expected result: the reply appears in the Ticket Thread under Jane's name, and the end user receives a copy by email.*
+
+*Note: because the Sev-A SLA allowed 1 hour (due 5:03 AM) and the ticket was still open at 5:30 AM, osTicket automatically logged "Flagged as overdue by the system." This shows how SLA plans track response expectations.*
+
+<p align="center">
+<img src="10-ticket1-jane-reply.png" width="80%" alt="Jane's reply in the thread, with the system overdue flag"/>
+</p>
+
+**2e. Resolve and close the ticket as Jane**
+1. As `jane`, open Ticket #145655 and click the **Post Reply** tab.
+2. Enter: "Server successfully restarted. Online banking is back up. Confirmed with Karen; closing the ticket."
+3. Set **Ticket Status** to `Resolved` and click **Post Reply**.
+
+*Expected result: the thread logs "Closed by Jane Doe with status of Resolved" with a timestamp (5:33 AM), and the end user receives the message by email.*
+
+<p align="center">
+<img src="11-ticket1-jane-closing-reply.png" width="80%" alt="Jane's closing reply with status set to Resolved"/>
+</p>
+
+4. Click **Closed** in the top menu to confirm the ticket moved there.
+
+*Expected result: Ticket #145655 appears in the Closed queue with Date Closed 11/7/26 5:33 AM and Closed By Jane Doe.*
+
+<p align="center">
+<img src="12-ticket1-closed-queue.png" width="80%" alt="Closed queue showing Ticket #145655"/>
 </p>
 <br />
