@@ -100,6 +100,6 @@ A hands-on walkthrough of the full ticket lifecycle in osTicket, from end-user s
 *Expected result: Ticket #145655 appears in the Closed queue with Date Closed 11/7/26 5:33 AM and Closed By Jane Doe.*
 
 <p align="center">
-<img src="12-ticket1-closed-queue.png" width="80%" alt="Closed queue showing Ticket #145655"/>
+<img src="Ticket Closed in Queue.png" width="80%" alt="Closed queue showing Ticket #145655"/>
 </p>
 <br />
