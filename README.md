@@ -61,10 +61,6 @@ A hands-on walkthrough of the full ticket lifecycle in osTicket, from end-user s
 6. Transfer the ticket: [click the **gear icon > Transfer**], select the `SysAdmin` department, enter the note "The banking system is down", and click **Transfer**.
    *Expected result: the thread logs "Ticket transferred from Support to SysAdmin" and the Department field changes to SysAdmin.*
 
-<p align="center">
-<img src="07-ticket1-assign-transfer-thread.png" width="80%" alt="Thread showing ticket assigned to Jane and transferred to SysAdmin"/>
-</p>
-
 **2c. Observe the ticket as Jane**
 1. Log out of John's session and log in to the agent panel as `jane`.
 2. Open Ticket #145655.
