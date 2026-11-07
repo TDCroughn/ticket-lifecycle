@@ -28,13 +28,13 @@ A hands-on walkthrough of the full ticket lifecycle in osTicket, from end-user s
 
 <h2>Lifecycle Stages</h2>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+**1a. Submit the ticket as an end user**
+1. Open a browser and go to `http://localhost/osTicket`, then click **Open a New Ticket**.
+2. Under Contact Information, enter Email Address `karen9999@outlook.com` and Full Name `Karen`. Leave Phone Number blank.
+3. Leave Help Topic as **General Inquiry**.
+4. In Issue Summary, type `Entire mobile/online banking system is down`.
+5. In the description box, enter: "The entire mobile/online banking system seems to be down. When I got back from lunch, I couldn't log in to the online banking platform. None of the tellers at my branch can either."
+6. Click **Create Ticket**.
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
