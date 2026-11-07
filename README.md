@@ -81,7 +81,7 @@ A hands-on walkthrough of the full ticket lifecycle in osTicket, from end-user s
 *Note: because the Sev-A SLA allowed 1 hour (due 5:03 AM) and the ticket was still open at 5:30 AM, osTicket automatically logged "Flagged as overdue by the system." This shows how SLA plans track response expectations.*
 
 <p align="center">
-<img src="Jane's Reply.png" width="80%" alt="Jane's reply in the thread, with the system overdue flag"/>
+<img src=".png" width="80%" alt="Jane's reply in the thread, with the system overdue flag"/>
 </p>
 
 **1e. Resolve and close the ticket as Jane**
