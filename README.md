@@ -17,7 +17,7 @@ A hands-on walkthrough of the full ticket lifecycle in osTicket, from end-user s
 
 <h2>Operating Systems Used </h2>
 
-- Windows 11</b> (26H2)
+- Windows 11</b> (25H2)
 
 <h2>Ticket Lifecycle Stages</h2>
 
