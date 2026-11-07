@@ -5,18 +5,19 @@
 </p>
 
 <h1>osTicket - Ticket Lifecycle: Intake Through Resolution</h1>
-This tutorial outlines the lifecycle of a ticket from intake to resolution within the open-source help desk ticketing system osTicket.<br />
+A hands-on walkthrough of the full ticket lifecycle in osTicket, from end-user submission to agent triage, department routing, SLA assignment, escalation, and resolution. It also demonstrates how department-level permissions control which agents can view or edit a ticket.<br />
 
 
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
+- osTicket (admin panel, agent panel, end-user portal), a web browser, role-based agent accounts (John, Jane)
 - Remote Desktop
 - Internet Information Services (IIS)
 
 <h2>Operating Systems Used </h2>
 
-- Windows 10</b> (21H2)
+- Windows 11</b> (26H2)
 
 <h2>Ticket Lifecycle Stages</h2>
 
